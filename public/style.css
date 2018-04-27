@@ -1,0 +1,51 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+#header {
+  text-align: center;
+  background-color: #870505;
+  color: #fff;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+#header h1 {
+  font-size: 14 !important;
+  font-weight: bold;
+}
+
+.submit {
+  background: #c45b00;
+  color: #fff;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.submit:hover {
+  background: #a54d01;
+}
+
+.Tasks {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.Tasks li:nth-child(even) {
+  background: #e8e8e8;
+}
+.Task {
+  border-bottom: 1px #ccc solid;
+  padding: 15px 0;
+}
+.Task h3 {
+  font-size: 1.2em;
+}
+
+.check {
+  text-decoration: line-through;
+  background: #ffb2b2;
+}
+.check .btn {
+  text-decoration: none !important;
+}
